@@ -1,0 +1,58 @@
+@media screen and (max-width: 670px) {
+  header {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  header ul {
+    margin-right: 0;
+  }
+
+  .top {
+    height: 400px;
+  }
+
+  .product div {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  .product div img {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .contents {
+    width: 90%;
+  }
+
+  .contents_item {
+    flex-direction: column;
+  }
+
+  .contents_item div {
+    margin-bottom: 20px;
+  }
+
+  .contents_item img {
+    width: 100%;
+  }
+
+  .contactForm input[type=email] {
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .contactForm input[type=submit]{
+    width: 90%;
+  }
+
+  footer {
+    text-align: center;
+  }
+  footer p {
+    font-size: 10px;
+  }
+}
